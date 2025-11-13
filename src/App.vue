@@ -1,10 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <p class="bg-red-400">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, ratione.
-    Sequi et totam obcaecati tempore perferendis modi, rerum animi repudiandae?
-  </p>
+  <div class="w-50 h-50 bg-red-300">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped></style>
