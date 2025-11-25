@@ -1,8 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from "./components/Header.vue";
+</script>
 
 <template>
-  <div class="w-50 h-50 bg-red-300">
-    <RouterView />
+  <Header />
+  <div class="w-full h-auto bg-gray-800">
+    <router-view />
   </div>
 </template>
 
