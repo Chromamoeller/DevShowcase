@@ -3,9 +3,12 @@ import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <Header />
-  <div class="w-full h-auto bg-gray-800">
-    <router-view />
+  <div class="min-h-screen flex flex-col bg-gray-900 text-slate-200">
+    <Header />
+
+    <main class="flex-1 w-full scrollbar">
+      <RouterView />
+    </main>
   </div>
 </template>
 

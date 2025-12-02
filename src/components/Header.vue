@@ -4,7 +4,7 @@ import DropdownMenu from "./DropdownMenu.vue";
 
 <template>
   <header
-    class="h-[100px] bg-slate-900 border-b border-slate-800 flex items-center px-4"
+    class="min-h-[7vh] bg-slate-900 border-b border-slate-800 flex items-center px-4"
   >
     <div class="flex items-center flex-1">
       <div

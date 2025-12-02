@@ -55,7 +55,7 @@ const toggle = () => {
     >
       <div
         v-if="isOpen"
-        class="absolute right-0 mt-2 w-44 rounded-xl border border-slate-800 bg-slate-900/95 shadow-xl backdrop-blur-md py-1 z-20"
+        class="absolute right-0 w-44 rounded-xl border border-slate-800 bg-slate-900/95 shadow-xl backdrop-blur-md py-1 z-20"
       >
         <template v-for="item in items" :key="item.label">
           <!-- Router-Link -->
