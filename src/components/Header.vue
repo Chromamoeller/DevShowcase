@@ -4,7 +4,7 @@ import DropdownMenu from "./DropdownMenu.vue";
 
 <template>
   <header
-    class="min-h-[7vh] bg-slate-900 border-b border-slate-800 flex items-center px-4"
+    class="min-h-[7vh] border-b flex items-center px-4 mb-2 bg-orange-100"
   >
     <div class="flex items-center flex-1">
       <div
@@ -25,6 +25,7 @@ import DropdownMenu from "./DropdownMenu.vue";
           { label: 'Quiz', to: '/games/quiz' },
           { label: 'Memory', to: '/games/memory' },
           { label: 'Clicker', to: '/games/clicker' },
+          { label: 'Puzzle', to: '/games/puzzle' },
         ]"
       />
       <DropdownMenu
