@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[250px] h-[350px] border border-white border-solid border-xl rounded-xl shadow-2xl bg-gradient-to-br from-slate-800 to-orange-200 mx-4 my-2"
+    class="w-[650px] h-[350px] border border-white/20 border-solid border-2 rounded-xl shadow-2xl bg-white/30 mx-4 my-2"
   ></div>
 </template>
 
